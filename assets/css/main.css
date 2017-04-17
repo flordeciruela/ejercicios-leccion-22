@@ -4,9 +4,15 @@
 	font-family: 'Raleway', sans-serif;
 }
 
-div {
-height: 60px;
-padding: 5px;
+.contenedor {
+	display: inline-block;
+}
+
+.contenedor div {
+	width: 180px;
+	height: 60px;
+	padding: 5px;
+	margin: 20px;
 }
 
 .yellow {
