@@ -1,0 +1,19 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+div {
+height: 60px;
+padding: 5px;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.pink {
+	background-color: #e92974;
+	border: 1px solid black;
+}
