@@ -4,23 +4,32 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+div {
+	background-color: #b9c2c1;
+	border: 2px solid gray;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+}
+
 .contenedor {
 	display: inline-block;
+	padding: 10px 0 10px 10px;
+	margin: 15px 0;
 }
 
-.contenedor div {
+.div-inline {
 	display: inline-block;
-	width: 180px;
-	height: 60px;
-	padding: 5px;
-	margin: 10px 5px;
+	margin-right: 10px;
 }
 
-.yellow {
-	background-color: yellow;
-}
-
-.pink {
-	background-color: #e92974;
+.div-invisible {
+	background: none;
 	border: none;
+}
+
+.div-down {
+	margin-top: 5px;
 }
